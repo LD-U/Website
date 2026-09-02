@@ -1,0 +1,101 @@
+{
+  "principles": [
+    { "icon": "✅", "title": "Research First, Research Often", "body": "Utilize research for identifying new opportunities and keep learning throughout a project's lifecycle using appropriate research methodologies based on project constraints, timelines, and learning objectives." },
+    { "icon": "🤏", "title": "Incremental Changes", "body": "Design towards a future without waiting for it. Provide value to users with small improvements over time." },
+    { "icon": "🤲", "title": "Cultivate Collaboration", "body": "Every team member's voice is valuable. Work hard to build relationships, encourage engagement from others, and bring them along for the ride." },
+    { "icon": "👂", "title": "Consider Your Audience", "body": "Curate communications based on who's listening. Find the right story to tell in an engaging way that is unique to your audience." },
+    { "icon": "🥧", "title": "Be Holistic", "body": "Individual user tasks are often inter-connected. Consider the total impact across product feature teams and all platform areas when making design decisions." },
+    { "icon": "🥤", "title": "Evolve and Be Slushee", "body": "Reflect, evaluate, and always be changing. Experiment with new processes to improve and optimize team collaboration and effectiveness." }
+  ],
+  "projects": [
+    {
+      "title": "Reseller Listing Workflow Redesign",
+      "tags": ["Design Research", "Product Design"],
+      "year": "2025",
+      "description": "Streamlined the end-to-end core workflow for secondhand marketplace, reducing drop-off by 34% through targeted usability research and iterative prototyping.",
+      "img": "photo-1556742049-0cfed4f6a45d",
+      "detail": "Starting with a discovery sprint of 18 seller interviews, I mapped friction points across the existing 9-step listing flow. The redesign collapsed it to 5 steps with inline guidance and contextual tips. Prototype testing with 12 participants validated a 34% reduction in abandonment, which was confirmed post-launch in analytics. The project also established reusable form patterns added to the shared design system."
+    },
+    {
+      "title": "Email Campaign Builder",
+      "tags": ["Product Strategy", "Design Systems"],
+      "year": "2024",
+      "description": "Led the redesign of a B2B email automation tool used by enterprise marketing teams, cutting average campaign build time from 45 minutes to 12.",
+      "img": "photo-1551288049-bebda4e38f71",
+      "detail": "Embedded with three enterprise marketing teams for two weeks of contextual inquiry, observing where the existing builder caused confusion and rework. Redesigned the template and block system with a drag-and-drop canvas, real-time preview, and a saved-blocks library. Post-launch time-on-task benchmarks showed a 73% reduction in average build time across user segments."
+    },
+    {
+      "title": "Buyer Trust Framework",
+      "tags": ["Research", "UX Design"],
+      "year": "2024",
+      "description": "Developed a trust signal system surfacing seller reputation, item condition transparency, and return policies — improving buyer conversion across the purchase funnel.",
+      "img": "photo-1460925895917-afdab827c52f",
+      "detail": "Qualitative research revealed that buyer hesitation clustered around three unknowns: seller reliability, item accuracy, and recourse if something went wrong. I designed a layered trust signal system — seller badges, condition rubrics, and policy summaries surfaced at the right moment in the funnel. A/B testing across 40k sessions showed a statistically significant lift in checkout conversion."
+    }
+  ],
+  "caseStudies": [
+    {
+      "title": "Upright Labs: Defining an MVP for Thrift Retail",
+      "tags": ["Discovery", "Product Strategy", "B2B SaaS"],
+      "year": "2024",
+      "description": "Led discovery and MVP scoping for a book inventory system serving thrift retailers — translating complex operational constraints into a shippable product strategy that supports multiple workflows without forcing change.",
+      "img": "photo-1524995997946-a1c2e315a42f",
+      "detail": "Upright Labs needed a fast, reliable ISBN identification and inventory system for thrift retailers — but workflows varied wildly across organizations (store sorting, warehouse QA, fulfillment). I led discovery research with 5 customer interviews and cross-functional validation to understand friction points: slow ISBN lookup, inconsistent pricing confidence, and fulfillment errors in dense shelving.",
+      "fullContent": {
+        "sections": [
+          { "heading": "Context", "content": "The existing ecosystem created friction in a few places: ISBN identification and value lookup could be slow or inconsistent; workflows varied significantly by org (store sorting vs centralized e-comm teams); internet connectivity and 'data freshness' constraints affected pricing confidence; listing and storage expectations (especially inventory locations) could bottleneck throughput; and picking from dense shelving made fulfillment error-prone without better item ID strategies." },
+          { "heading": "About the company", "content": "Upright Labs is a B2B SaaS company serving the thrift and secondhand retail industry with web and mobile products for inventory management and multi-channel e-commerce." },
+          { "heading": "Goals for the project", "content": ["Define an MVP that would meet functionality and reliability objectives and deliver under a constrained deadline", "Enable fast, reliable ISBN identification at scan-time (mobile and web)", "Reduce the time and cognitive load required to make a selling destination decision (e-comm vs retail vs salvage vs recycle)", "Define an MVP that's pilot-ready without requiring major operational change", "Create a path to scale beyond books (more product categories, marketplaces, and smarter decisioning over time)", "Ship a pragmatic pricing approach that protects minimum profit while still supporting sell-through"] },
+          { "heading": "Objective statement", "content": "Create a database-first MVP that makes ISBN scanning a 'first class action' across Link (mobile) and Lister (web/desktop): quickly identify a book, return trusted product/value data, and guide users through a streamlined workflow to sort, list, store, and fulfill—without over-scoping repricing customization." },
+          { "heading": "My experience", "subheading": "My role", "content": ["Planned and synthesized discovery work to clarify constraints, validate assumptions, and reduce project risk", "Facilitated cross-functional alignment across stakeholders, product, engineering, and customer success teams", "Defined project objectives, workflow principles, and scoping tradeoffs", "Documented an end-to-end experience and created artifacts that supported build planning"] },
+          { "subheading": "Cross-functional partners", "content": "Engineering: feasibility checks, system constraints, and implementation planning. Product and Customer teams: pilot criteria, operational workflow validation, and adoption risk assessment." },
+          { "heading": "Discovery and Exploration", "subheading": "Research objectives", "content": ["Understand workflow variability across organizations (store sorting, warehouse QA, fulfillment)", "Validate interest in store-level, tool-assisted value identification", "Test early hypotheses: minimum profit control, workflow flexibility, purge-to-salvage, and picking support"] },
+          { "subheading": "Methods", "content": "5 customer interviews · 5 internal validation tests · 1 cross-functional ideation session" },
+          { "subheading": "Key insights", "content": ["Mobile-first workflows were viable at retail scale; Android patterns aligned with existing Link usage", "Flexibility across touchpoints reduced adoption risk more than enforcing one 'ideal' workflow", "Inventory location timing was a major friction point → supported a 'list then store' direction", "Fulfillment picking needed a ticket/ID strategy to work in dense shelving environments"] },
+          { "heading": "Solution direction", "subheading": "1) Database-first ISBN identification and lookup", "content": ["Fast scan-time matching via local/cache-backed access", "Live lookup for unknown ISBNs with write-through to the cache", "Designed to scale beyond books into broader product identification over time"] },
+          { "subheading": "2) Destination decisioning", "content": "A decision engine centered on: cached current market value (refreshed on a target cadence); estimated shipping cost (dimensions/weight); admin-set minimum profit; and user-entered condition (plus optional condition details)." },
+          { "subheading": "3) Pricing automation (MVP tradeoff)", "content": "To keep the MVP shippable and consistent with the 'low-change-frequency' majority of customers: set initial price from market data; reduce price over time via listing strategies; never drop below minimum profit; defer deeper 'real-time market trend repricing' customization to later phases." },
+          { "subheading": "4) End-to-end workflow", "content": "Scan ISBN → identify product → destination decision → capture condition → create draft/listing and print ticket → store later (ticket and location) → auto-list eligible items → fulfillment picking supported by ticket/ID." },
+          { "heading": "Outcomes", "content": "At the end of this phase, I delivered: a clear MVP strategy anchored on database performance and workflow flexibility; documented tradeoffs and decisions (especially repricing scope); pilot criteria and a rollout/engagement plan to validate in real operations; and design exploration artifacts (batch listing concepts, touchscreen accessibility-forward UI directions, haptic/audio feedback principles, unit tracking taxonomy)." },
+          { "heading": "Learnings", "content": ["In operationally complex domains, the best MVPs reduce change resistance by supporting multiple valid workflows—not by forcing one 'perfect' process.", "Clear tradeoff documentation (what's explicitly out of scope and why) speeds alignment and protects teams from scope creep."] }
+        ]
+      }
+    },
+    {
+      "title": "Express List: Redesigning a Core Listing Workflow",
+      "tags": ["UX Design", "Usability Testing", "UI Redesign"],
+      "year": "2024",
+      "description": "Reimagined a critical product listing workflow to reduce cognitive load and time-to-list — transforming a long scrolling form into a contextual, card-based interface validated through iterative usability testing.",
+      "img": "photo-1454165804606-c3d57bc86b40",
+      "detail": "The existing listing workflow in Upright's web product 'Lister' was a long scrolling form that was difficult to parse and error-prone. Users struggled to identify required fields and complete listings efficiently. I was tasked early in my onboarding to reinvent this critical workflow without disrupting existing users.",
+      "fullContent": {
+        "sections": [
+          { "heading": "Context", "content": "A core workflow for the web product 'Lister' allows users to list a product for sale across multiple marketplaces. Users complete this task by entering details about the product (dimensions, weight, attributes, price, etc.) including any necessary information determined by the marketplace (eBay, ShopGoodwill, or Shopify). Previous to the redesign, the listing task was completed using a scrolling, long form which was difficult for users to parse and prone to errors." },
+          { "heading": "About the company", "content": "Upright Labs is a business-to-business SaaS company leading the thrift and secondhand retail industry with web and mobile products for inventory management and e-commerce." },
+          { "heading": "Goals for the project", "content": ["Reduce the average time-to-list metric across all customer organizations", "Help users identify which fields are needed to configure to create a successful listing", "Avoid disruption of current workflow", "Focus user-attention and emphasize required fields", "Reduce cognitive load for users listing products by reducing the amount of decisions", "Prevent listing errors from happening by restricting submissions with missing values"] },
+          { "heading": "Objective statement", "content": "Take a contextual approach to the listing workflow with a redesigned layout that reduces the amount of content displayed and reduces the amount of data entry necessary for a successful listing. 'Express List' was designed to increase the average monthly listings across client organizations and a decrease in the average time-to-list metric while also sustaining the average price per item sold." },
+          { "heading": "My experience", "content": "The challenges faced by the existing listing workflow were shared with me during my hiring process at Upright. I was tasked early in my onboarding to 'reinvent' this critical workflow. Our product team was focused on increasing listing efficiency and reducing the time-to-list metric but was hesitant to disrupt users. This project was handled iteratively and I lead efforts to define objectives and find creative solutions to meeting them." },
+          { "subheading": "My role", "content": ["Iterate on user interface recommendations based on new information", "Test the new workflow with a design prototype with internal and external users", "Identify testing candidates, recruit, and schedule sessions", "Generate the scenario, task, and script", "Create recruiting, followup, and thank you messaging", "Synthesize findings and make recommendations based on feedback from users", "Modify the design recommendations based on usability testing insights", "Generate materials to facilitate collaboration with engineers"] },
+          { "subheading": "Engineer's role", "content": "Worked with design-identified objectives, principles, user stories, and feature lists to create a proof of concept. Selected a direction and developed a table and add to cart/check out experience. Iterated on the initial proof of concept after user testing validation. Applied final integration details and layout/styling into a release ready user experience." },
+          { "heading": "Discovery and Exploration", "content": "I explored multiple layout directions through wireframing: parent and sub-category selection patterns, auto-selection based on title input, wizard-style progressions with enabled advancement, single column forms with success/error indicators, auto-advance through one-field-at-a-time interactions, and responsive layouts for mobile. These explorations informed our understanding of how to progressively disclose information and reduce cognitive load." },
+          { "heading": "Usability testing recruitment and facilitation", "content": "I created a potential participant recruiting pool using quantitative data based on the amount of custom builder templates an organization uses and varied the participants based on organization size, engagement level, and organization type to create a diverse potential pool of participants." },
+          { "heading": "Usability Testing", "content": "I engaged participants in a tasked-based, observational test of the design prototype to gather feedback directly from users about the information architecture, functionality, and new layout of the listing workflow. The learning objective was to validate our early hypothesis and test assumptions about how users would interact with the new design." },
+          { "subheading": "Hypothesis to validate", "content": "We believe that by reducing the cognitive load of parsing fields within a full form through only showing fields that are needed, users will (in time) be able to list faster." },
+          { "subheading": "Assumptions to test", "content": ["Users will be looking for specific fields and feel required to enter a value for specific fields", "Users will overlook builder templates/product attributes with a 'single page form'"] },
+          { "heading": "User testing feedback", "subheading": "Findings and Top Takeaways", "content": ["The side drawer was not discoverable by any participant unless prompted", "'Missing' elements/fields seemed to be specific to the workflow of each organization — some found nothing missing, others would not have successful listings without the ability to define: scheduling, shipping weight, box size etc.", "Many participants mentioned the listing role as a 'final check' with the processing role handling the majority of the heavy lifting: documenting product condition, dimensions, testing, and details about the item"] },
+          { "heading": "Solution", "content": ["Improve the discoverability of the side drawer", "Make fields flexible if possible to have admins define who (permissions) sees what", "Adjust the listing strategy to be contextual — if there are multiple listing strategy matches based on the category, display the listing strategy selection field within the workflow", "Future iterations: allow Link to complete product attributes", "Ensure keyboard navigation across fields and cards is optimized for speed", "[Potentially] Make some fields (like price) hidden with Admin settings or user permission based — ex: some orgs don't want listers (or some listers) to be able to change the price or set the listing type to buy-it-now"] },
+          { "heading": "Outcomes", "content": "The 'Express List' feature moved into development for front-end implementation and final visual design changes. The workflow is a stronger approach to solving for the original productivity efficiency objective. Iterative design cycles created a layout that is future-proof for planned enhancements and additional features as well as responsive and mobile friendly. 'Express List' was launched to all users upon development completion and co-exists alongside the existing workflow, giving users a choice between the two." },
+          { "heading": "Learnings", "content": ["Stepping back into projects with fresh eyes can help to elevate, improve, and strengthen projects with knowledge gained in-between active design cycles.", "Working iteratively also helped to redefine and focus the objectives of the project and was necessary to designing holistically."] }
+        ]
+      }
+    },
+    {
+      "title": "Building a Design System for Scale",
+      "tags": ["Design Systems", "Team Leadership"],
+      "year": "2023",
+      "description": "Establishing a shared component library and design language across three cross-functional product teams, reducing design-to-dev handoff friction by half.",
+      "img": "photo-1507238691740-187a5b1d37b8",
+      "detail": "Three product teams, three Figma files, zero consistency. I led the audit, negotiated a token-first approach with engineering, and ran bi-weekly working sessions to build buy-in. Over six months we shipped a 60-component library with usage documentation and contribution guidelines. Handoff time dropped by 50% in the first quarter post-launch, measured via team velocity surveys."
+    }
+  ]
+}
