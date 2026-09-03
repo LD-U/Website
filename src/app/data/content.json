@@ -49,14 +49,18 @@
         "sections": [
           {
             "subheading": "Background and Context",
-            "content": "Formerly competing companies, Upright Labs and Neatoscan merged in 2023. The merger kick started a product team-led investigation into the market offering across the two companies. The goal was to identify complementary and competitive features. Research into the customer base to identify themes in their structure, behavior, usage, and needs was also tasked to the product team. I led this customer segmentation project. The project involved categorizing our customers, identifying their primary needs, and evaluating the effectiveness of our total products and how well our products were meeting the needs of our customers. "
+            "content": "Formerly competing companies, Upright Labs and Neatoscan merged in 2023. The merger kick started a product team-led investigation into the market offering across the two companies. The goal was to identify complementary and competitive features. Research into the customer base to identify themes in their structure, behavior, usage, and needs was also tasked to the product team. I led this customer segmentation project. The project involved categorizing our customers, identifying their primary needs, and evaluating the effectiveness of our total products and how well our products were meeting the needs of our customers.",
+            "image": {
+              "src": "/images/customer-segmentation/goal-mapping-overview.png",
+              "alt": "Goal mapping diagrams for several customer segments, showing shared and unique goals across each group"
+            }
           },
           {
             "subheading": "Objectives",
             "content": [
               "Identify key attributes that define our customers across Upright and Neatoscan",
               "Surface themes shared across customers and group individual customers into segments",
-              "Document critical data about each segment and their unique goals, needs, and challenges "
+              "Document critical data about each segment and their unique goals, needs, and challenges"
             ]
           },
           {
@@ -69,43 +73,80 @@
             ]
           },
           {
+            "content": "The goal was not to individually map all 250 Upright and Neatoscan customers to defined customer segments, but to use data on our customers to create the criteria and characteristics of each segment."
+          },
+          {
             "subheading": "Project Tasks",
             "content": [
-              "Identify attributes (properties) to use in the classification of customer segments",
+              "Identify attributes (properties) to use in the classification of customer segments — for example, e-commerce team size, top key performance indicators, and channels",
               "Leverage attributes (properties) to group customers into segments",
               "Define goals, needs, and challenges for each unique customer segment"
             ]
           },
           {
             "subheading": "Approach and Project Process",
+            "content": "With 250 customers across Upright and Neatoscan, the most efficient approach was to use quantitative data points with a single report that would “self-sort” the full customer list into initial groups. This became the “genus” — the family — grouping.\n\nThe larger family groups were then further broken down using qualitative attributes, defining the narrower groups of the “species.” This process allowed for individual tracking of all attributes across the entire client list while also making the process more precise than self-assigning customers to a categorized segment."
+          },
+          {
+            "subheading": "Step one: Quantitative self-sorting into genus groups",
             "content": [
-              "E-Commerce Team Size",
-              "Average Number of Items Listed Per Month",
-              "Average Monthly Revenue",
-              "Average Support Volume (Reliance/Comfort) – not reported for Neatoscan",
-              "Average Support Duration (average length of support) – not reported for Neatoscan",
-              "Top 3 Item Types (category) by Volume",
-              "Channels"
-            ]
+              "Two reports, separating Upright and Neatoscan into individual reports, returned each customer's data alongside: e-commerce team size, average number of items listed per month, and average monthly revenue (used for auto-sorting)",
+              "Additional attributes surfaced further themes: average support volume and duration (Upright only), top 3 item types by volume, and channels",
+              "Auto-sorted groups were determined by team size, then split into a high- or low-“performance” sub-category based on average revenue per team member — for example, a team of 1 earning under $10,000 per team member would be marked Extra Small / Low"
+            ],
+            "image": {
+              "src": "/images/customer-segmentation/genus-grouping-report.png",
+              "alt": "Quantitative genus grouping report used to auto-sort the customer list"
+            }
           },
           {
-            "subheading": "Upright Genus Groupings",
-            "content": "Upright Genus Groupings Google Sheets View\n\nUpright Genus Groupings Airtable View"
+            "subheading": "Step two: Reconciling shared customers",
+            "content": "Shared customer organizations (those overlapping between Upright and Neatoscan) were evaluated individually to see the variation in reported values. Where there was a wide delta between the data, we took the average between the two companies' attribute values."
           },
           {
-            "subheading": "Neatoscan Genus Groupings",
-            "content": "Neatoscan Genus Groupings Google Sheet View\n\nNeatoscan Genus Groupings Airtable View\n\nComparing share customer data between Upright and Neatoscan.\n\nShared customer organizations will be evaluated individually to see the variation in reported values. If there is a wide delta between the data, we’ll take the average between Upright and Neatoscan attribute values.\n\nQualitative attributes used in a collaborative sorting activity.\n\nSorting participants (a small group of Upright Services, CS, and Growth teams) will take the broad, family segments (genus) and sort them into more narrow, smaller customer segments (species). Using knowledge about the unique qualities of the customer organizations within each group, participants will use the qualitative attributes as a guide for evaluating themes within the customer groupings. Sorting will start with identification of any “snowflake” organizations (example: Unclaimed Baggage). Then, participants will used a matrix to group/plot customer organizations by: e-commerce experience and change adoption. 9 groups will emerge from the sorting activity and original family groupings will highlight additional themes. A similar activity will be performed with the Neatoscan team, and based on the accessible qualitative attributes of Neatoscan customers.\n\nLayering additional qualitative attributes to define the final customer segment groupings and characteristics.\n\nThe remaining qualitative attributes (top KPIs, main value proposition, facility size, sale approach, organization model, and organization type) will be layered on to the 9 initial customer segments to identify any additional unique customer segments. The final list of customer segments will be documented along with each segment’s characteristics (shared attributes) and one “representative customer” to be used in the feature logging."
+            "subheading": "Step three: Collaborative qualitative sorting",
+            "content": "A small group from Upright's Services, CS, and Growth teams took the broad genus groupings and sorted them into narrower customer segments (“species”), using their firsthand knowledge of each organization. Sorting started by identifying any “snowflake” organizations, then participants used a matrix to group and plot customers by e-commerce experience and change adoption — nine groups emerged from the activity. A similar exercise was run separately with the Neatoscan team using their accessible qualitative attributes.",
+            "image": {
+              "src": "/images/customer-segmentation/sorting-session-matrix.png",
+              "alt": "Collaborative sorting session matrix used to group customers by e-commerce experience and change adoption"
+            }
+          },
+          {
+            "subheading": "Step four: Layering qualitative attributes",
+            "content": "The remaining qualitative attributes (top KPIs, main value proposition, facility size, sale approach, organization model, and organization type) were layered onto the nine initial customer segments to identify any additional unique groupings. The final list of customer segments was documented along with each segment's shared characteristics and one “representative customer” to be used in feature logging.",
+            "image": {
+              "src": "/images/customer-segmentation/final-segment-groupings.png",
+              "alt": "Final customer segment groupings after layering additional qualitative attributes"
+            }
           },
           {
             "subheading": "Attributes Glossary and User Role List",
+            "content": "A companion glossary documents the full definitions behind every attribute and user role used throughout the classification and sorting process."
+          },
+          {
+            "subheading": "Outcomes",
+            "content": "The final defined customer segments were designed to better interpret product performance metrics when measuring the success of new features and surfacing new opportunities. The product team is able to create data cohorts (within Amplitude) based on the defined customer segments to get a more granular view of product data.\n\nCustomer segments now inform conversation and decision-making in several ways:",
+            "image": {
+              "src": "/images/customer-segmentation/segment-cohort-view.png",
+              "alt": "Customer segment cohort view used for product data reporting"
+            },
+            "gallery": [
+              {
+                "src": "/images/customer-segmentation/goal-mapping-new-and-resistant.jpg",
+                "alt": "Goal mapping and needs pairing example for the customer segment: “New and Resistant”",
+                "caption": "Goal mapping and needs pairing example for the customer segment: “New and Resistant”"
+              }
+            ]
+          },
+          {
             "content": [
-              "Ensure the feature logging has a diverse sample of customer organizations without needing to individually evaluate every organization",
-              "Evolve our products to be more flexible and accommodating to a variety of organization types with unique workflows and needs",
-              "Granularly define the audience for new product features",
-              "Increase the data-driven inputs when evaluating product prioritization and new opportunities",
-              "A scalable, personalized approach to supporting our customers",
-              "Efficient onboarding of new customers",
-              "Granularly track feature adoption and establish cohorts for product reporting"
+              "Ensure feature logging has a diverse sample of customer organizations without needing to individually evaluate every organization — how might we define a “representative customer” from each segment to further analyze product usage, feature logging, and workflow documentation?",
+              "Evolve our products to be more flexible and accommodating to a variety of organization types with unique workflows and needs — how might we optimize our products to fit the needs of a spectrum of users?",
+              "Granularly define the audience for new product features — how might we balance new features across our diverse customer set?",
+              "Increase data-driven inputs when evaluating product prioritization and new opportunities — how might we leverage customer segments to help plan product roadmaps?",
+              "Take a scalable, personalized approach to supporting our customers — how might our playbooks evolve when considering the unique qualities of a customer?",
+              "Onboard new customers efficiently — how might we leverage the defined criteria to classify new customers and optimize our internal onboarding process?",
+              "Granularly track feature adoption and establish cohorts for product reporting — how might we create and maintain customer cohorts to analyze product data?"
             ]
           }
         ]
@@ -132,16 +173,16 @@
           {
             "heading": "Open questions",
             "content": [
-              "what’s the current picking process/workflow for orgs that are not utilizing Link for digital picking? ",
-              "what might be a plausible equipment setup for GW Minneapolis given their existing space?",
-              "how will locations for conveyors be setup in Lister?",
-              "what about orders that are mixed type (clothing and collectibles)?",
-              "what happens when an item is not found?",
-              "what happens when the wrong item is in the location?",
-              "how might we ensure orders are locked and unavailable to other pickers?",
-              "if “picking” multiple orders at one time, would it be faster to cycle through locations in order and match to pack slips or pick items based on the orders?",
-              "are clothing items that are stored on a conveyor barcoded?",
-              "how are items attached to the conveyor?",
+              "What's the current picking process/workflow for orgs that are not utilizing Link for digital picking? How does picking from Lister currently work? — A: Users multi-select from the orders page and print pack slips that travel to the locations with the picker and then travel to shipping with the item, or (in an extreme use case) users pick from an SGW pick list",
+              "What might be a plausible equipment setup for GW Minneapolis given their existing space? Is it possible to place a workstation (or two) directly by the conveyors? Is GW Minneapolis interested in combining picking and shipping for single item, clothing orders? Would a conveyor workstation need to double as a “put away station” as well?",
+              "How will locations for conveyors be set up in Lister? What might the naming convention look like — for example, Conveyor 01 - Space 001, Conveyor 02 - Space 239?",
+              "What about orders that are mixed type (clothing and collectibles)? Should we limit to single item orders? — A: Separate workflows based on order type",
+              "What happens when an item is not found?",
+              "What happens when the wrong item is in the location?",
+              "How might we ensure orders are locked and unavailable to other pickers?",
+              "If “picking” multiple orders at one time, would it be faster to cycle through locations in order and match to pack slips, or pick items based on the orders? How fast do the conveyors cycle through the full locations? Are the conveyors multi-directional (do they travel forwards and backwards)?",
+              "Are clothing items that are stored on a conveyor barcoded?",
+              "How are items attached to the conveyor? — A: Hangers, unsure on type",
               "Will the conveyors be using the “Automated Order Assembly System” and White system software?"
             ]
           },
@@ -194,7 +235,36 @@
           },
           {
             "heading": "Initial Concept",
-            "content": "Bulk Action within Orders Manager with Cycled Order Fulfillment Screen\n\nA new action within the bulk actions menu in the order manager automates a location list sent to the conveyor to retrieve stored items. Users leverage printed pack slips to verify item picked to the printed order pack slip.\n\nFigma FigJam Link\n\nWorkflow:"
+            "content": "Bulk Action within Orders Manager with Cycled Order Fulfillment Screen\n\nA new action within the bulk actions menu in the order manager automates a location list sent to the conveyor to retrieve stored items. Users leverage printed pack slips to verify the item picked against the printed order pack slip.",
+            "image": {
+              "src": "/images/conveyor-workflow/workflow-diagram.jpg",
+              "alt": "Conveyor stationary picking workflow diagram"
+            }
+          },
+          {
+            "subheading": "Workflow",
+            "content": [
+              "Open Orders Manager",
+              "Filter orders by single item order",
+              "Filter orders by location = conveyor 1",
+              "Multi-select 3–5 single item orders in conveyor 1 locations",
+              "Select bulk action: “print pack slips and pick orders”",
+              "Place printed pack slips on left side of workstation",
+              "Change location filter to = conveyor 2",
+              "Multi-select 3–5 single item orders in conveyor 2 locations",
+              "Select bulk action: “print pack slips and pick orders” — automated tasks: orders are set to “locked,” locations are sent to the conveyor in order of the printed pack slips, and the “Cycled Order Fulfillment Screen” opens",
+              "Place printed pack slips on right side of workstation",
+              "Conveyors automatically cycle through locations based on the sequence of the printed pack slips (by selected order)",
+              "When the conveyor stops, visually confirm the item against the pack slip, then scan the item barcode to confirm and mark as picked — automated task: when an item is marked as picked (or missing), the system cycles to the next order's location",
+              "Attach the pack slip to the item or item hanger",
+              "Place the picked order on the rolling clothing rack",
+              "Repeat for each order until the cycle is completed",
+              "Select another batch of orders"
+            ],
+            "image": {
+              "src": "/images/conveyor-workflow/floor-configuration.png",
+              "alt": "Proposed floor configuration with two conveyors and a shared workstation"
+            }
           },
           {
             "heading": "Functionality Needs",
@@ -212,6 +282,16 @@
               "wrong item in location",
               "item matches pack slip but wrong barcode",
               "correct barcode but item does not match pack slip title/description/image"
+            ]
+          },
+          {
+            "subheading": "Next Steps",
+            "content": [
+              "Challenge assumptions by speaking to Services team members",
+              "Test the assumption/hypothesis of separate left and right conveyor operation",
+              "Work with the Services team to formalize the recommended operational workflow, including workstation needs, placement in proximity to the conveyor, and shipping needs",
+              "Pilot the workflow with an organization with newly purchased conveyors and stress test the recommended workflow",
+              "Make adjustments to the workflow based on pilot feedback"
             ]
           }
         ]
@@ -233,7 +313,11 @@
         "sections": [
           {
             "heading": "Background and Context",
-            "content": "E-commerce teams were facing a challenges regarding inventory quality and volume. Many of the items being sent to e-commerce from store locations were not meeting the requirements for acceptance in selling online. Despite organizations leveraging functionality to call out items not to send to e-commerce, many items were still being returned to stores and not sold through e-commerce. E-commerce teams have a dependency on store locations to create a strong product flow but lack tools to provide feedback to store team members."
+            "content": "E-commerce teams were facing a challenges regarding inventory quality and volume. Many of the items being sent to e-commerce from store locations were not meeting the requirements for acceptance in selling online. Despite organizations leveraging functionality to call out items not to send to e-commerce, many items were still being returned to stores and not sold through e-commerce. E-commerce teams have a dependency on store locations to create a strong product flow but lack tools to provide feedback to store team members.",
+            "image": {
+              "src": "/images/flag-do-not-send-items/empty-manifest.png",
+              "alt": "Empty manifest table before any items are added"
+            }
           },
           {
             "heading": "User Stories",
@@ -273,7 +357,7 @@
           {
             "heading": "Open Questions",
             "content": [
-              "Match rate %?",
+              "Match rate %? How might we distinguish the potential success rate of a match? Example: “Clear pyrex — send white glass pyrex only” = a manifest title of “white picture frame” would match, but with a low match rate, because it matches only 1 of the 7 words from the item preference.",
               "How aware are in-store employees to the admin-applied “do not send list?”"
             ]
           },
@@ -284,6 +368,16 @@
               "If an item title fuzzy matches a keyword in any of the items from the “do not send list” then add the item to the “flagged items” table separate from the main manifest table",
               "Allow users to “ignore and add” any flagged items",
               "Any manifest with flagged items at the time of save will trigger a popover modal for users to confirm adding manifest items that match the “do not send list”"
+            ],
+            "gallery": [
+              {
+                "src": "/images/flag-do-not-send-items/full-manifest-flagged.png",
+                "alt": "Manifest table with a flagged items table shown separately below it"
+              },
+              {
+                "src": "/images/flag-do-not-send-items/confirm-list-column.png",
+                "alt": "Confirmation modal and table column shown when saving a manifest with flagged items"
+              }
             ]
           }
         ]
@@ -301,44 +395,134 @@
       "fullContent": {
         "sections": [
           {
-            "subheading": "Recommendations from the Research",
+            "subheading": "Context",
+            "content": "This generative research was framed to discover and document the landscape of selling books through e-commerce more broadly. Objectives of the research were to uncover the specific needs and goals our customers have regarding the storage, selling, and shipping of media materials. Additionally, the research was designed to learn more about the challenges faced by our users, especially for organizations new to the market."
+          },
+          {
+            "subheading": "My role",
+            "content": "I led the planning and execution of this research effort to capture the landscape of selling books through e-commerce more broadly. I worked independently to plan the research criteria, recruit and schedule sessions with participants, facilitate customer interviews, and synthesize the findings for leadership.",
+            "image": {
+              "src": "/images/research-reselling-books-media/book-ecosystem.jpg",
+              "alt": "Reselling books ecosystem diagram"
+            }
+          },
+          {
+            "subheading": "Timeline",
+            "content": "2 weeks from planning the research and scheduling interviews through final synthesis and recommendations shared with leadership."
+          },
+          {
+            "subheading": "Goals",
             "content": [
-              "discover goals for selling books and media in e-commerce",
-              "uncover challenges with sorting, selling, storage, and shipping",
-              "better understand the sorting and repricing factors in books and media",
-              "learn more about selling used media on Amazon specifically",
-              "understand the differences and similarities of selling each category type of media",
-              "learn how Neatoscan technology determines value through the database and live lookup",
-              "must be willing to talk with us and dedicate 30mins for an in-person interview",
-              "must have direct experience in engineering, solutions consulting, production, or client experience",
-              "what goals regarding selling books did your organization have when starting with Neatoscan?",
-              "how have your goals regarding selling books and media changed over time?",
-              "how often have you made changes to your accept/reject or repricing rules?",
-              "tell me more about challenges your organization and team have faced regarding:",
-              "what factors are critical to your organization regarding sorting and repricing?",
-              "what has the experience of selling on [Marketplace] been like for you and your team?",
-              "what are some differences to the approach you take selling [main category type] vs. [secondary category type]?",
-              "how does the scanning and sorting look like for your organization?",
+              "Discover goals for selling books and media in e-commerce",
+              "Uncover challenges with sorting, selling, storage, and shipping",
+              "Better understand the sorting and repricing factors in books and media",
+              "Learn more about selling used media on Amazon specifically",
+              "Understand the differences and similarities of selling each category type of media",
+              "Learn how Neatoscan technology determines value through the database and live lookup"
+            ]
+          },
+          {
+            "subheading": "Research methodology used",
+            "content": [
+              "4 external interviews with leadership at current customer organizations",
+              "2 internal interviews with customer support team members"
+            ]
+          },
+          {
+            "subheading": "Recruitment criteria and process",
+            "content": "3–4 members from various teams were selected through interest in being involved in research or team lead identification of participant candidates. Candidates needed to be willing to talk with us and dedicate 30 minutes for an in-person interview, and needed direct experience in engineering, solutions consulting, production, or client experience."
+          },
+          {
+            "subheading": "Sample questions asked during interviews",
+            "content": [
+              "What goals regarding selling books did your organization have when starting with Neatoscan?",
+              "How have your goals regarding selling books and media changed over time?",
+              "How often have you made changes to your accept/reject or repricing rules?",
+              "Tell me more about challenges your organization and team have faced regarding sorting, selling, storage, and shipping",
+              "What factors are critical to your organization regarding sorting and repricing?",
+              "What has the experience of selling on [Marketplace] been like for you and your team?",
+              "What are some differences to the approach you take selling [main category type] vs. [secondary category type]?",
+              "How does the scanning and sorting look like for your organization?",
+              "What are some similarities in the approach you have to selling various category types?",
+              "How does Neatoscan technology determine value through both the database and live lookup approaches?",
+              "How does the value determination work across various marketplaces?",
+              "Why do books (and media) need to be repriced so frequently?",
+              "What other alternatives for selling books exist, including without sorting automation?"
+            ]
+          },
+          {
+            "subheading": "Analysis and synthesis process",
+            "content": [
+              "Individual research interview notes were synthesized into top session takeaways with the format: headline and context",
+              "Top takeaways across all research sessions and surveys were grouped and synthesized into top project takeaways",
+              "Recommendations were generated from the top project takeaways and framed as new opportunities for vetting by product leadership"
+            ],
+            "image": {
+              "src": "/images/research-reselling-books-media/synthesis-process.png",
+              "alt": "Synthesis process from session takeaways to project-level recommendations"
+            }
+          },
+          {
+            "subheading": "Outputs/deliverables",
+            "content": [
               "Synthesis of findings from 6 interviews",
               "Reselling books ecosystem diagram",
-              "Product audit and documentation of design debt items ",
-              "Actionable recommendations based on insights from the interviews",
-              "Data warehouse: set up trend and performance tracking to alert Neatoscan team when there are downward trends on sales performances",
-              "Align to trends of utilizing Amazon less, supporting independent websites and smaller marketplaces for selling books",
+              "Product audit and documentation of design debt items",
+              "Actionable recommendations based on insights from the interviews"
+            ],
+            "image": {
+              "src": "/images/research-reselling-books-media/deliverables-overview.png",
+              "alt": "Overview of research deliverables and recommendations"
+            }
+          },
+          {
+            "subheading": "Impact",
+            "content": "2 out of 6 new opportunities surfaced from this research's recommendations have been prioritized and added to the product roadmap for design and development cycles. Additionally, 7 design debt items were identified and documented to improve the experience of using Inventory Management for reselling books and media."
+          },
+          {
+            "subheading": "Recommendations from the Research: Become a more proactive customer support team with informed data",
+            "content": [
+              "Data warehouse: set up trend and performance tracking to alert the Neatoscan team when there are downward trends on sales performance",
+              "Align to trends of utilizing Amazon less, supporting independent websites and smaller marketplaces for selling books"
+            ]
+          },
+          {
+            "subheading": "Recommendations: Outcome-based system for defining accept/reject and repricing rules",
+            "content": [
               "Allow users to define the parameters and properties used to sort books",
-              "Enable onboarding by defining sorting parameters, flooring price, listing delays. etc.",
-              "Increase customer organizations’ (especially for onboarding new orgs) comprehension of basic decision factors in accept/reject and repricing rules using plain language and an approachable interface",
-              "Potentially a form submission that is sent to the Neatoscan team to process the change request.",
-              "Create a Neatoscan owned and maintained template where updates are automatically applied to all “subscribed” organizations",
+              "Enable onboarding by defining sorting parameters, flooring price, listing delays, etc.",
+              "Increase customer organizations' (especially for onboarding new orgs) comprehension of basic decision factors in accept/reject and repricing rules using plain language and an approachable interface — foundational elements include weight, condition, rank, trends, competition, floor, and minimum profit",
+              "Potentially route changes through a form submission sent to the Neatoscan team to process the change request, which could later expand into fully integrated functionality"
+            ]
+          },
+          {
+            "subheading": "Recommendations: A new template-based and additive model for customizing rules",
+            "content": [
+              "Create a Neatoscan-owned and maintained template where updates are automatically applied to all “subscribed” organizations",
               "Continue to have organizations utilize a base template but also enable customization that adds to the template instead of making direct changes to the decision tree",
-              "Potentially utilize a rule set and common language to allow users to self-serve within the platform",
-              "4 out of 6 research participants mentioned lag and page/tab content load time as a challenge when making changes to accept/reject and repricing rules.",
-              "Additionally, the animated transitions between tabs and pages can be disorienting and exploring alternative methods for helping users navigate throughout the platform could potentially reduce perceived lag and wait time.",
+              "Potentially utilize a rule set and common language to allow users to self-serve within the platform"
+            ]
+          },
+          {
+            "subheading": "Recommendations: Improve overall performance",
+            "content": [
+              "4 out of 6 research participants mentioned lag and page/tab content load time as a challenge when making changes to accept/reject and repricing rules",
+              "Animated transitions between tabs and pages can be disorienting; exploring alternative navigation methods could reduce perceived lag and wait time"
+            ]
+          },
+          {
+            "subheading": "Recommendations: Empower users to troubleshoot unexpected sorting or pricing behavior",
+            "content": [
               "Make “tracing” more discoverable",
-              "Help customers find some answers themselves and reduce the time investment for Neatoscan in “tracing” and troubleshooting",
+              "Help customers find some answers themselves and reduce the time investment for Neatoscan in tracing and troubleshooting"
+            ]
+          },
+          {
+            "subheading": "Recommendations: Define a system for account changes that is secure, locked, and auditable",
+            "content": [
               "Attribute changes to a specific user making the changes, not just the account and user logged into the platform",
-              "Potentially eliminate the need to remote access users’ computers and accounts to make changes",
-              "Allow only one user to make editing changes to accept/reject and repricing rules at a time and eliminate changes being overwritten by another user"
+              "Potentially eliminate the need to remote access users' computers and accounts to make changes",
+              "Allow only one user to make editing changes to accept/reject and repricing rules at a time, eliminating changes being overwritten by another user"
             ]
           }
         ]
@@ -358,16 +542,69 @@
       "fullContent": {
         "sections": [
           {
+            "subheading": "Launched Feature: Error Message Panel",
+            "content": "",
+            "image": {
+              "src": "/images/improving-error-messaging/error-messages-panel.png",
+              "alt": "The launched Error Message Panel showing plain-language, scannable error and warning messages"
+            }
+          },
+          {
             "subheading": "Background and Objectives",
+            "content": "The Studio editor includes a preview component that allows users to render the final image they are building to validate the success of the app's configuration. If an image fails to render successfully or as expected, Studio also has a tool for debugging: the debug log.\n\nThe challenges with the debug log tool were:"
+          },
+          {
             "content": [
-              "Unapproachable by non-technical production personas  – dense and technical log of all information regarding the app",
-              "Hard to parse – even for technical production personas, the log was hard to scan and identify critical areas to address",
-              "Back and forth with image – users could not view the image and the debug log simultaneously making it more time consuming to navigate back and forth.",
+              "Unapproachable by non-technical production personas — a dense and technical log of all information regarding the app",
+              "Hard to parse — even for technical production personas, the log was hard to scan and identify critical areas to address",
+              "Back and forth with image — users could not view the image and the debug log simultaneously, making it more time consuming to navigate back and forth"
+            ]
+          },
+          {
+            "content": "The majority of Studio users (not just technical users or code editors) would be more successful and faster at diagnosing and troubleshooting rendering issues in Studio if error and warning messages were displayed in plain language that is easy to scan, easy to understand, and easy to act on."
+          },
+          {
+            "subheading": "Objectives",
+            "content": [
               "Make it easier for any production persona (no matter their level of technical ability) to understand what went wrong when an app fails to render",
               "Reduce the time it takes Studio users to troubleshoot a problem",
               "Increase the scanability of error messaging by emphasizing and highlighting key areas",
               "Help production personas understand what actions to take next to resolve errors"
             ]
+          },
+          {
+            "subheading": "Before: Debug Log",
+            "content": "",
+            "image": {
+              "src": "/images/improving-error-messaging/debug-log-before.png",
+              "alt": "The original debug log tool, showing a dense, technical, unformatted list of render information"
+            }
+          },
+          {
+            "subheading": "Sketches",
+            "content": "",
+            "gallery": [
+              {
+                "src": "/images/improving-error-messaging/sketch-page-2.jpg",
+                "alt": "Early sketch exploring the error message panel layout"
+              },
+              {
+                "src": "/images/improving-error-messaging/sketch-page-3.jpg",
+                "alt": "Early sketch exploring the error message panel layout"
+              },
+              {
+                "src": "/images/improving-error-messaging/sketch-page-1.jpg",
+                "alt": "Early sketch comparing the before and after states of the error message treatment"
+              }
+            ]
+          },
+          {
+            "subheading": "Feature Demo Video",
+            "content": "",
+            "video": {
+              "src": "/videos/improving-error-messaging/demo.mov",
+              "caption": "A walkthrough of the launched Error Message Panel in Studio."
+            }
           }
         ]
       }
@@ -375,19 +612,106 @@
   ],
   "caseStudies": [
     {
+      "title": "Building a Product Team Operating System from the Ground Up",
+      "tags": [
+        "B2B SaaS",
+        "Team Leadership"
+      ],
+      "year": "2026",
+      "description": "Built a repeatable product investment operating system: framework, planning cadence, and engineering investment reporting, to make prioritization and roadmap decisions transparent across a multi-product Commerce portfolio.",
+      "img": "/images/building-a-product-team-operating-system-from-the-ground-up.jpg",
+      "detail": "Built a repeatable product investment operating system: framework, planning cadence, and engineering investment reporting, to make prioritization and roadmap decisions transparent across a multi-product Commerce portfolio.",
+      "fullContent": {
+        "sections": [
+          {
+            "subheading": "About the company",
+            "content": "Upright Labs is a B2B SaaS company serving the thrift and secondhand retail industry with web and mobile products for inventory management and e-commerce. After several ownership and organizational changes, the product team now operates within a larger structure while maintaining direct relationships with customers and cross-functional partners in Growth, Customer Experience, and Engineering."
+          },
+          {
+            "subheading": "Context",
+            "content": "I joined Upright Labs in 2022 as the company’s first design hire, assigned to elevate the products and build a design team. Over the next few years I grew into a strategic product team role with additional responsibilities including roadmap planning, customer communications, internal team rollout coordination, and product direction."
+          },
+          {
+            "subheading": "Building a team and a process",
+            "content": "I hired and began managing a contracted product designer and defined how our team would collaborate, grow, and own their work. In addition to leading the design team, I also led the organization’s first structured roadmap prioritization process and established decisions grounded in customer feedback, quantitative data, and a repeatable framework rather than opinions. That framework, and the trust it built with engineering and customer-facing teams, became the foundation I’d later scale across the entire organization."
+          },
+          {
+            "subheading": "Designing for many teams, not just one",
+            "content": "A sudden organizational consolidation brought several previously independent teams under one shared product function. With the merger of 4 unique businesses and a collective 17 product areas, I began co-owning the combined product function. This became the opportunity to scale the existing framework I’d already proven with one team into a full operating system built for four. Additionally we acquired another product designer and our team grew in size and responsibilities, moving from designers to product owners."
+          },
+          {
+            "subheading": "Strategy and process design",
+            "content": [
+              "Defined guiding principles and company/product priorities as shared evaluation criteria for every initiative, advancing strategy, solving meaningful customer problems, benefiting the greatest number of customers, and protecting platform health",
+              "Designed a two-part scoring model: a modified RICE framework (Reach, Impact, Confidence, Effort) calibrated to our signal sources, paired with a customer-assessment layer (cohort, account health, revenue influence, strategic partnerships)",
+              "Defined a four-track project-sizing rubric, from quick wins to strategic initiatives, so scope could be evaluated independently of priority",
+              "Mapped the full signal-to-solution lifecycle, from customer feedback and internal signals through discovery, delivery, and measured outcomes",
+              "Established a single feedback and feature-request intake form across all product areas and audiences (internal teams and customers) along with weekly triage of incoming requests"
+            ]
+          },
+          {
+            "subheading": "People and cross-functional leadership",
+            "content": [
+              "Hired and managed a contracted product designer, then 2 contract designers",
+              "Owned the consolidated product function with initial support from a product analyst and a technical project manager",
+              "Built and launched a release communication site for CX and Growth visibility"
+            ]
+          },
+          {
+            "subheading": "The prioritization framework",
+            "content": "With several teams now sharing one product function, I evolved my earlier framework into a more rigorous model. Every opportunity, whether a customer request or an internally identified initiative, is evaluated against the same guiding principles before it’s ever scored.\n\nOpportunities that clear that bar are scored two ways: a modified RICE model weighted toward our specific signal sources, and a customer-assessment layer that considers cohort, account health, revenue influence, and strategic partnerships. High-value opportunities with low confidence are routed into discovery before they ever reach the roadmap. I also defined the product goals and created a stable foundation to evaluate initiatives against."
+          },
+          {
+            "subheading": "Artifacts and tools",
+            "content": [
+              "Guiding principles and prioritization framework documentation",
+              "Process diagram (see below)",
+              "Release communications website for internal teams"
+            ],
+            "gallery": [
+              {
+                "src": "/images/operating-system/process-diagram.png",
+                "alt": "Process diagram mapping the full signal-to-solution lifecycle",
+                "caption": "Process diagram"
+              },
+              {
+                "src": "/images/operating-system/release-comms-site.png",
+                "alt": "Release communications website used by CX and Growth teams",
+                "caption": "The release communications site: conceived, structured, and content-managed by me using a Notion database as a CMS, with AI-assisted implementation, gives CX and Growth teams a living view of what is coming soon, coming next, and coming later, with detail on what is changing, for whom, and why."
+              }
+            ]
+          },
+          {
+            "subheading": "Outcomes",
+            "content": [
+              "Built a design team and mentored designers through growth into product owners",
+              "Consolidated and standardized product processes",
+              "Established a framework for prioritization and roadmap planning",
+              "Led the product team through company mergers",
+              "Owned product strategy across 17 unique product areas"
+            ]
+          },
+          {
+            "subheading": "Learnings",
+            "content": "Product leadership at scale is less about owning decisions and more about designing the conditions for good decisions. As my scope expanded from one product team to four businesses and 17 product areas, I learned that a process only scales when people understand and trust the thinking behind it. I focused on making that thinking explicit: what we value, what signals we trust, how we evaluate tradeoffs, where uncertainty should trigger discovery, and how decisions connect back to customer and business outcomes.\n\nAs my role shifted from designing products to designing the systems around them, I became more intentional about creating shared language, reducing ambiguity between teams, and making product reasoning visible to people who weren't directly involved in the work. The result was a useful reminder that good product systems should not make an organization more rigid. They should make it more capable, giving teams a consistent foundation while leaving room for judgment, context, and new information."
+          }
+        ]
+      }
+    },
+    {
       "title": "Leading Through Ambiguity: AI-Supported Retail Workflows",
       "tags": [
         "Team Leadership"
       ],
       "year": "2026",
-      "description": "Coached a product designer to lead discovery on a high-risk, sales-driven initiative and stepping in to protect the design team when the research plan stalled unexpectedly.",
+      "description": "",
       "img": "/images/leading-through-ambiguity-ai-supported-retail-workflows.jpg",
-      "detail": "Coaching a product designer to lead discovery on a high-risk, sales-driven initiative and stepping in to protect the design team when the research plan stalled unexpectedly.",
+      "detail": "",
       "fullContent": {
         "sections": [
           {
             "heading": "Context",
-            "content": "This project explored AI-supported workflows to help retail store employees identify products and estimate resale value directly from photos. This capability was already meaningfully impacting customers and their ability to speed up donation processing using the web-based app: pearldive Ama. Seeing a gap in the sales strategy for upselling existing customers using a native app for retail production (Solutions DGR), the Sales team proposed a workflow based on what they believed customers needed: a direct integration between the two systems. Rather than move straight into design, I saw it as an opportunity to test assumptions and ensure we were reducing risk well before development."
+            "content": "Coaching a product designer to lead discovery on a high-risk, sales-driven initiative and stepping in to protect the design team when the research plan stalled unexpectedly.\n\nThis project explored AI-supported workflows to help retail store employees identify products and estimate resale value directly from photos. This capability was already meaningfully impacting customers and their ability to speed up donation processing using the web-based app: pearldive Ama. Seeing a gap in the sales strategy for upselling existing customers using a native app for retail production (Solutions DGR), the Sales team proposed a workflow based on what they believed customers needed: a direct integration between the two systems. Rather than move straight into design, I saw it as an opportunity to test assumptions and ensure we were reducing risk well before development."
           },
           {
             "subheading": "What I owned",
@@ -416,87 +740,19 @@
             "content": "Rather than solve it for her, I used our regular design team sync where myself and two product designers use the space to work through the pivot together. We talked through why customer outreach might be stalling and what alternative paths could still get us reliable signal. The team decided to pivot from external customer interviews to internal team observations and expertise, pulling on what our own Customer Experience and Account Management teams already knew about how customers handled this work today.\n\nFrom there, I helped the project led curate a cross-team workshop to bring that internal knowledge together and pressure-test the sales team's assumptions directly, but I made a deliberate choice to support facilitation rather than lead it, giving the product designer the room to run the session herself."
           },
           {
+            "heading": "Original Plan vs. Pivot",
+            "content": [
+              "Original Plan: Validate assumptions through direct customer interviews, sourced via a CX warm handoff",
+              "Pivot: Validate assumptions through internal team expertise and a structured cross-team workshop"
+            ]
+          },
+          {
             "heading": "Outcomes",
             "content": "Friction Risk Surfaced\n\nThe Sales team's proposed workflow was found to be largely misaligned with existing operational workflows for processing incoming donations. Clear patterns emerged within the workshop’s workflow mapping activity showing alignment across organizations on the methods used to sort donated goods and prep them for resale. The existing operational workflows were at odds with the solution outlined by the Sales team\n\nNext Steps\n\nThe workshop succeeded in surfacing initial risk and pointed the product team toward exploring alternate directions. Catching this friction risk before any design or engineering work began avoided building toward the wrong solution. The project is now moving forward into design, shaped by what we actually validated rather than what was originally assumed."
           },
           {
             "heading": "Learnings",
             "content": "The most important leadership decision in this project wasn't the research pivot, it was choosing not to solve the stalled outreach problem myself. I used this project as a coaching moment to bring the design team together to work through it collectively, and let the product designer led her project. "
-          }
-        ]
-      }
-    },
-    {
-      "title": "Building a Product Team Operating System from the Ground Up",
-      "tags": [
-        "Team Leadership",
-        "Product Strategy"
-      ],
-      "year": "2026",
-      "description": "Built a repeatable product investment operating system: framework, planning cadence, and engineering investment reporting, to make prioritization and roadmap decisions transparent across a multi-product Commerce portfolio.",
-      "img": "/images/building-a-product-team-operating-system-from-the-ground-up.jpg",
-      "detail": "",
-      "fullContent": {
-        "sections": [
-          {
-            "heading": "About the company",
-            "content": "Upright Labs is a B2B SaaS company serving the thrift and secondhand retail industry with web and mobile products for inventory management and e-commerce. After several ownership and organizational changes, the product team now operates within a larger structure while maintaining direct relationships with customers and cross-functional partners in Growth, Customer Experience, and Engineering."
-          },
-          {
-            "heading": "Context",
-            "content": "I joined Upright Labs in 2022 as the company’s first design hire, assigned to elevate the products and build a design team. Over the next few years I grew into a strategic product team role with additional responsibilities including roadmap planning, customer communications, internal team rollout coordination, and product direction. "
-          },
-          {
-            "subheading": "Building a team and a process",
-            "content": "I hired and began managing a contracted product designer and defined how our team would collaborate, grow, and own their work. In addition to leading the design team, I also led the organization’s first structured roadmap prioritization process and establishing decisions grounded in customer feedback, quantitative data, and a repeatable framework rather than opinions. That framework, and the trust it built with engineering and customer-facing teams, became the foundation I’d later scale across the entire organization."
-          },
-          {
-            "subheading": "Designing for many teams, not just one",
-            "content": "A sudden organizational consolidation brought several previously independent teams under one shared product function. With the merger of 4 unique businesses and a collective 17 product areas, I began co-owning the combined product function. This became the opportunity to scale the existing framework I’d already proven with one team into a full operating system built for four. Additionally we acquired another product designer and our team grew in size and responsibilities, moving from designers to product owners."
-          },
-          {
-            "subheading": "Strategy and process design",
-            "content": [
-              "Defined guiding principles and company/product priorities as shared evaluation criteria for every initiative, advancing strategy, solving meaningful customer problems, benefiting the greatest number of customers, and protecting platform health",
-              "Designed a two-part scoring model: a modified RICE framework (Reach, Impact, Confidence, Effort) calibrated to our signal sources, paired with a customer-assessment layer (cohort, account health, revenue influence, strategic partnerships)",
-              "Defined a four-track project-sizing rubric, from quick wins to strategic initiatives, so scope could be evaluated independently of priority",
-              "Mapped the full signal-to-solution lifecycle, from customer feedback and internal signals through discovery, delivery, and measured outcomes",
-              "Established a single feedback and feature-request intake form across all product areas and audiences (internal teams and customers) along with weekly triage of incoming requests"
-            ]
-          },
-          {
-            "subheading": "People and cross-functional leadership",
-            "content": [
-              "Hired and managed a contracted product designer, then 2 contract designers",
-              "Owned the consolidated product function with initial support from a product analyst and a technical project manager",
-              "Built and launched a release communication site for CX and Growth visibility"
-            ]
-          },
-          {
-            "heading": "The prioritization framework",
-            "content": "With several teams now sharing one product function, I evolved my earlier framework into a more rigorous model. Every opportunity, whether a customer request or an internally identified initiative, is evaluated against the same guiding principles before it’s ever scored.\n\nOpportunities that clear that bar are scored two ways: a modified RICE model weighted toward our specific signal sources, and a customer-assessment layer that considers cohort, account health, revenue influence, and strategic partnerships. High-value opportunities with low confidence are routed into discovery before they ever reach the roadmap. I also defined the product goals and created a stable foundation to evaluate initiatives against."
-          },
-          {
-            "heading": "Artifacts and tools",
-            "content": [
-              "Guiding principles and prioritization framework documentation",
-              "Process diagram (see below)",
-              "Release communications  website for internal teams"
-            ]
-          },
-          {
-            "heading": "Outcomes",
-            "content": [
-              "Built a design team and mentored designers through growth into product owners",
-              "Consolidated and standardized product processes",
-              "Established a framework for prioritization and roadmap planning",
-              "Led the product team through company mergers ",
-              "Owned product strategy across 17 unique product areas"
-            ]
-          },
-          {
-            "heading": "Learnings",
-            "content": "Product leadership at scale is less about owning decisions and more about designing the conditions for good decisions. As my scope expanded from one product team to four businesses and 17 product areas, I learned that a process only scales when people understand and trust the thinking behind it. I focused on making that thinking explicit: what we value, what signals we trust, how we evaluate tradeoffs, where uncertainty should trigger discovery, and how decisions connect back to customer and business outcomes.\n\nAs my role shifted from designing products to designing the systems around them, I became more intentional about creating shared language, reducing ambiguity between teams, and making product reasoning visible to people who weren't directly involved in the work. The result was a useful reminder that good product systems should not make an organization more rigid. They should make it more capable, giving teams a consistent foundation while leaving room for judgment, context, and new information."
           }
         ]
       }
@@ -514,6 +770,9 @@
         "sections": [
           {
             "subheading": "Context",
+            "content": "Secondhand and thrift organizations, like Goodwill and Salvation Army, receive large volumes of donated books every day. This abundant product flow is an asset for mission-based organizations that turn donations into revenue that supports their community programs. The challenge for Upright customers is determining the value of individual donated items at this scale.\n\nThe existing ecosystem created friction in a few places:"
+          },
+          {
             "content": [
               "ISBN identification and value lookup could be slow or inconsistent",
               "Workflows varied significantly by org (store sorting vs centralized e-comm teams)",
@@ -529,12 +788,12 @@
           {
             "subheading": "Goals for the project",
             "content": [
-              "define an MVP that would meet functionality and reliability objectives and deliver under a constrained deadline",
-              "enable fast, reliable ISBN identification at scan-time (mobile and web)",
-              "reduce the time and cognitive load required to make a selling destination decision (e-comm vs retail vs salvage vs recycle)",
-              "define an MVP that’s pilot-ready without requiring major operational change",
-              "create a path to scale beyond books (more product categories, marketplaces, and smarter decisioning over time)",
-              "ship a pragmatic pricing approach that protects minimum profit while still supporting sell-through"
+              "Define an MVP that would meet functionality and reliability objectives and deliver under a constrained deadline",
+              "Enable fast, reliable ISBN identification at scan-time (mobile and web)",
+              "Reduce the time and cognitive load required to make a selling destination decision (e-comm vs retail vs salvage vs recycle)",
+              "Define an MVP that’s pilot-ready without requiring major operational change",
+              "Create a path to scale beyond books (more product categories, marketplaces, and smarter decisioning over time)",
+              "Ship a pragmatic pricing approach that protects minimum profit while still supporting sell-through"
             ]
           },
           {
@@ -543,46 +802,90 @@
           },
           {
             "subheading": "My experience",
-            "content": "I led early discovery, research, scoping, and feature prioritization - translating research insights and operational constraints into a clearly defined MVP and go-to-market direction. My focus was to reduce risk, align stakeholders on tradeoffs, and define a workflow that could realistically succeed in beta environments with varied organization structures.\n\nMy role\n\nCross-functional partners"
+            "content": "I led early discovery, research, scoping, and feature prioritization, translating research insights and operational constraints into a clearly defined MVP and go-to-market direction. My focus was to reduce risk, align stakeholders on tradeoffs, and define a workflow that could realistically succeed in beta environments with varied organization structures."
+          },
+          {
+            "subheading": "My role",
+            "content": [
+              "Planned and synthesized discovery work to clarify constraints, validate assumptions, and reduce project risk",
+              "Facilitated cross-functional alignment across stakeholders, product, engineering, and customer success teams",
+              "Defined project objectives, workflow principles, and scoping tradeoffs",
+              "Documented an end-to-end experience and created artifacts that supported build planning"
+            ]
+          },
+          {
+            "subheading": "Cross-functional partners",
+            "content": [
+              "Engineering: feasibility checks, system constraints, and implementation planning",
+              "Product and Customer teams: pilot criteria, operational workflow validation, and adoption risk assessment"
+            ]
           },
           {
             "subheading": "Discovery and Exploration",
+            "content": ""
+          },
+          {
+            "subheading": "Research objectives",
             "content": [
-              "understand workflow variability across organizations (store sorting, warehouse QA, fulfillment)",
-              "validate interest in store-level, tool-assisted value identification",
-              "test early hypotheses: minimum profit control, workflow flexibility, purge-to-salvage, and picking support",
-              "5 customer interviews",
-              "5 internal validation tests",
-              "1 cross-functional ideation session",
-              "mobile-first workflows were viable at retail scale; Android patterns aligned with existing Link usage",
-              "flexibility across touchpoints reduced adoption risk more than enforcing one “ideal” workflow",
-              "inventory location timing was a major friction point → supported a “list then store” direction",
-              "fulfillment picking needed a ticket/ID strategy to work in dense shelving environments"
+              "Understand workflow variability across organizations (store sorting, warehouse QA, fulfillment)",
+              "Validate interest in store-level, tool-assisted value identification",
+              "Test early hypotheses: minimum profit control, workflow flexibility, purge-to-salvage, and picking support"
             ]
           },
           {
-            "subheading": "Solution direction",
+            "subheading": "Methods (snapshot)",
             "content": [
-              "fast scan-time matching via local/cache-backed access",
-              "live lookup for unknown ISBNs with write-through to the cache",
-              "designed to scale beyond books into broader product identification over time",
-              "cached current market value (refreshed on a target cadence)",
-              "estimated shipping cost (dimensions/weight)",
-              "admin-set minimum profit",
-              "user-entered condition (plus optional condition details)",
-              "set initial price from market data",
-              "reduce price over time via listing strategies",
-              "never drop below minimum profit",
-              "defer deeper “real-time market trend repricing” customization to later phases"
+              "5 customer interviews",
+              "5 internal validation tests",
+              "1 cross-functional ideation session"
             ]
+          },
+          {
+            "subheading": "Key insights",
+            "content": [
+              "Mobile-first workflows were viable at retail scale; Android patterns aligned with existing Link usage",
+              "Flexibility across touchpoints reduced adoption risk more than enforcing one “ideal” workflow",
+              "Inventory location timing was a major friction point → supported a “list then store” direction",
+              "Fulfillment picking needed a ticket/ID strategy to work in dense shelving environments"
+            ]
+          },
+          {
+            "subheading": "Solution direction: Database-first ISBN identification and lookup",
+            "content": [
+              "Fast scan-time matching via local/cache-backed access",
+              "Live lookup for unknown ISBNs with write-through to the cache",
+              "Designed to scale beyond books into broader product identification over time"
+            ]
+          },
+          {
+            "subheading": "Solution direction: Destination decisioning",
+            "content": [
+              "Cached current market value (refreshed on a target cadence)",
+              "Estimated shipping cost (dimensions/weight)",
+              "Admin-set minimum profit",
+              "User-entered condition (plus optional condition details)"
+            ]
+          },
+          {
+            "subheading": "Solution direction: Pricing automation (MVP tradeoff)",
+            "content": [
+              "Set initial price from market data",
+              "Reduce price over time via listing strategies",
+              "Never drop below minimum profit",
+              "Defer deeper “real-time market trend repricing” customization to later phases"
+            ]
+          },
+          {
+            "subheading": "Solution direction: End-to-end workflow",
+            "content": "Scan ISBN → identify product → destination decision → capture condition → create draft/listing and print ticket → store later (ticket and location) → auto-list eligible items → fulfillment picking supported by ticket/ID"
           },
           {
             "subheading": "Outcomes",
             "content": [
-              "a clear MVP strategy anchored on database performance and workflow flexibility",
-              "documented tradeoffs and decisions (especially repricing scope)",
-              "pilot criteria and a rollout/engagement plan to validate in real operations",
-              "design exploration artifacts (batch listing concepts, touchscreen accessibility-forward UI directions, haptic/audio feedback principles, unit tracking taxonomy)"
+              "A clear MVP strategy anchored on database performance and workflow flexibility",
+              "Documented tradeoffs and decisions (especially repricing scope)",
+              "Pilot criteria and a rollout/engagement plan to validate in real operations",
+              "Design exploration artifacts (batch listing concepts, touchscreen accessibility-forward UI directions, haptic/audio feedback principles, unit tracking taxonomy)"
             ]
           },
           {
@@ -601,11 +904,27 @@
         "UI Redesign"
       ],
       "year": "2024",
-      "description": "Reimagined a critical product listing workflow to reduce cognitive load and time-to-list, transforming a long scrolling form into a contextual, card-based interface validated through iterative usability testing.",
+      "description": "Reimagined a critical product listing workflow to reduce cognitive load and time-to-list — transforming a long scrolling form into a contextual, card-based interface validated through iterative usability testing.",
       "img": "/images/feature-express-list-redesigning-a-core-workflow.jpg",
       "detail": "The existing listing workflow in Upright's web product 'Lister' was a long scrolling form that was difficult to parse and error-prone. Users struggled to identify required fields and complete listings efficiently. I was tasked early in my onboarding to reinvent this critical workflow without disrupting existing users.",
       "fullContent": {
         "sections": [
+          {
+            "subheading": "Context",
+            "content": "A core workflow for the web product “Lister” allows users to list a product for sale across multiple marketplaces. Users complete this task by entering details about the product (its dimensions, weight, attributes, price, etc.) including any necessary information determined by the marketplace (eBay, ShopGoodwill, or Shopify). Previous to the redesign, the listing task was completed using a scrolling, long form which was difficult for users to parse and prone to errors.",
+            "gallery": [
+              {
+                "src": "/images/express-list/builder-template-before.png",
+                "alt": "Previous workflow: an example custom builder template for capturing specific product details based on the previously selected category",
+                "caption": "Previous workflow: an example custom builder template for capturing specific product details based on the previously selected category"
+              },
+              {
+                "src": "/images/express-list/product-form-before.png",
+                "alt": "Previous workflow: the new product form for listing a new item for sale",
+                "caption": "Previous workflow: the new product form for listing a new item for sale"
+              }
+            ]
+          },
           {
             "subheading": "About the company",
             "content": "Upright Labs is a business-to-business SaaS company leading the thrift and secondhand retail industry with web and mobile products for inventory management and e-commerce."
@@ -617,7 +936,7 @@
               "help users identify fields are needed to configure to create a successful listing",
               "avoid disruption of current workflow",
               "focus user-attention and emphasize required fields",
-              "reduce cognitive load for users listing products by reducing the amount of decisions ",
+              "reduce cognitive load for users listing products by reducing the amount of decisions",
               "prevent listing errors from happening by restricting submissions with missing values"
             ]
           },
@@ -627,45 +946,162 @@
           },
           {
             "subheading": "My experience",
-            "content": "The challenges faced by the existing listing workflow were shared with me during my hiring process at Upright. I was tasked early in my onboarding to “reinvent” this critical workflow. Our product team was focused on increasing listing efficiency and reducing the time-to-list metric but was hesitant to disrupt users. This project was handled iteratively and I lead efforts to define objectives and find creative solutions to meeting them. The last phase of work, documented here, encompasses the user interface redesign, user testing, final recommendations based on user feedback, and artifacts generated to facilitate collaboration with the engineering lead assigned to development.\n\nMy role\n\nEngineer's role"
+            "content": "The challenges faced by the existing listing workflow were shared with me during my hiring process at Upright. I was tasked early in my onboarding to “reinvent” this critical workflow. Our product team was focused on increasing listing efficiency and reducing the time-to-list metric but was hesitant to disrupt users. This project was handled iteratively, and I led efforts to define objectives and find creative solutions to meeting them. The last phase of work, documented here, encompasses the user interface redesign, user testing, final recommendations based on user feedback, and artifacts generated to facilitate collaboration with the engineering lead assigned to development."
+          },
+          {
+            "subheading": "My role",
+            "content": [
+              "Iterate on user interface recommendations based on new information",
+              "Test the new workflow with a design prototype with internal and external users — identifying and recruiting testing candidates, generating the scenario, task, and script, and creating recruiting, follow-up, and thank-you messaging",
+              "Synthesize findings and make recommendations based on feedback from users",
+              "Modify the design recommendations based on usability testing insights",
+              "Generate materials for facilitating collaboration with engineers"
+            ],
+            "image": {
+              "src": "/images/express-list/fields-diagram.png",
+              "alt": "Field functionality and display decision tree diagram for collaboration with engineers",
+              "caption": "Field functionality and display decision tree diagram for collaboration with engineers"
+            }
+          },
+          {
+            "subheading": "Engineer's role",
+            "content": [
+              "Worked with design-identified objectives, principles, user stories, and feature lists to create a proof of concept",
+              "Selected a direction and developed a table and add-to-cart/checkout experience",
+              "Iterated on the initial proof of concept after user testing validation",
+              "Applied final integration details and layout/styling into a release-ready user experience"
+            ]
+          },
+          {
+            "subheading": "Discovery and Exploration",
+            "content": "",
+            "gallery": [
+              {
+                "src": "/images/express-list/wireframe-parent-sub-category.png",
+                "alt": "Early-stage wireframe: parent and sub category selection",
+                "caption": "Early-stage wireframe: parent and sub category selection"
+              },
+              {
+                "src": "/images/express-list/wireframe-auto-selection-sidebar.png",
+                "alt": "Early-stage wireframe: auto-selection of parent category based on title with sidebar and progress indicator",
+                "caption": "Early-stage wireframe: auto-selection of parent category based on title with sidebar and progress indicator"
+              },
+              {
+                "src": "/images/express-list/wireframe-wizard-style.png",
+                "alt": "Early-stage wireframe: wizard style with completed configuration and enabled advancement",
+                "caption": "Early-stage wireframe: wizard style with completed configuration and enabled advancement"
+              },
+              {
+                "src": "/images/express-list/wireframe-single-column-form.png",
+                "alt": "Early-stage wireframe: single column form with success and error indicators",
+                "caption": "Early-stage wireframe: single column form with success and error indicators"
+              },
+              {
+                "src": "/images/express-list/wireframe-auto-advance-field.png",
+                "alt": "Early-stage wireframe: auto-advance through one-field-at-a-time",
+                "caption": "Early-stage wireframe: auto-advance through one-field-at-a-time"
+              },
+              {
+                "src": "/images/express-list/wireframe-mobile-responsive.png",
+                "alt": "Mid-stage wireframe: responsive layout for mobile",
+                "caption": "Mid-stage wireframe: responsive layout for mobile"
+              },
+              {
+                "src": "/images/express-list/wireframe-auto-advance-wizard.png",
+                "alt": "Mid-stage wireframe: auto-advance, wizard-style layout",
+                "caption": "Mid-stage wireframe: auto-advance, wizard-style layout"
+              },
+              {
+                "src": "/images/express-list/wireframe-page-progression.png",
+                "alt": "Mid-stage layout: page progression",
+                "caption": "Mid-stage layout: page progression"
+              },
+              {
+                "src": "/images/express-list/wireframe-review-board.png",
+                "alt": "Mid-stage wireframes of layout options for review and discussion",
+                "caption": "Mid-stage wireframes of layout options for review and discussion"
+              }
+            ]
           },
           {
             "subheading": "Usability testing recruitment and facilitation",
-            "content": "I created a potential participant recruiting pool using quantitative data based on the amount of custom builder templates an organization uses and varied the participants based on organization size, engagement level, and organization type to create a diverse potential pool of participants.   "
+            "content": "I created a potential participant recruiting pool using quantitative data based on the amount of custom builder templates an organization uses and varied the participants based on organization size, engagement level, and organization type to create a diverse potential pool of participants.",
+            "image": {
+              "src": "/images/express-list/recruiting-pool-breakdown.png",
+              "alt": "Breakdown of the usability testing recruiting pool"
+            }
           },
           {
-            "subheading": "Usability Testing a clickable design prototype",
+            "subheading": "Usability Testing a Clickable Design Prototype",
+            "content": "I engaged participants in a tasked-based, observational test of the design prototype to gather feedback directly from users about the information architecture, functionality, and new layout of the listing workflow. The learning objective was to validate our early hypothesis and test assumptions about how users would respond."
+          },
+          {
+            "subheading": "Hypothesis to Validate",
+            "content": "We believe that by reducing the cognitive load of parsing fields within a full form through only showing fields that are needed, users will (in time) be able to list faster."
+          },
+          {
+            "subheading": "Assumption Busting",
             "content": [
-              "users will be looking for specific fields and feel required to enter a value for specific fields",
-              "users will overlook builder templates/product attributes with a “single page form”"
+              "Users will be looking for specific fields and feel required to enter a value for specific fields",
+              "Users will overlook builder templates/product attributes with a “single page form”"
+            ],
+            "image": {
+              "src": "/images/express-list/prototype-test-hero.png",
+              "alt": "New Workflow prototype screen used in usability testing"
+            },
+            "gallery": [
+              {
+                "src": "/images/express-list/prototype-test-variant-1.png",
+                "alt": "New Workflow prototype variant 1"
+              },
+              {
+                "src": "/images/express-list/prototype-test-variant-2.png",
+                "alt": "New Workflow prototype variant 2"
+              },
+              {
+                "src": "/images/express-list/prototype-test-variant-3.png",
+                "alt": "New Workflow prototype variant 3"
+              }
             ]
           },
           {
             "subheading": "User testing feedback",
             "content": [
-              "the side drawer was not discoverable by any participant unless prompted",
-              "“missing” elements/fields seemed to be specific to the workflow of each organization",
-              "many participants mentioned the listing role as a “final check” with the processing role handling the majority of the heavy lifting:"
+              "The side drawer was not discoverable by any participant unless prompted",
+              "“Missing” elements/fields seemed to be specific to the workflow of each organization — some found nothing missing, others would not have successful listings without the ability to define scheduling, shipping weight, box size, etc.",
+              "Many participants mentioned the listing role as a “final check,” with the processing role handling the majority of the heavy lifting: documenting product condition, dimensions, testing, and details about the item"
             ]
           },
           {
             "subheading": "Solution",
             "content": [
-              "improve the discoverability of the side drawer",
-              "make fields flexible if possible to have admins define who (permissions) sees what",
-              "adjust the listing strategy to be contextual",
-              "future iterations: allow Link to complete product attributes",
-              "ensure keyboard navigation across fields and cards is optimized for speed",
-              "[Potentially] Make some fields (like price) hidden with Admin settings or user permission based"
+              "Improve the discoverability of the side drawer",
+              "Make fields flexible, if possible, to have admins define who (permissions) sees what",
+              "Adjust the listing strategy to be contextual — if there are multiple listing strategy matches based on the category, display the listing strategy selection field within the workflow",
+              "Future iterations: allow linking to complete product attributes",
+              "Ensure keyboard navigation across fields and cards is optimized for speed",
+              "[Potentially] make some fields (like price) hidden with admin settings or user-permission based — some orgs don't want listers (or some listers) to be able to change the price or set the listing type to buy-it-now"
+            ],
+            "gallery": [
+              {
+                "src": "/images/express-list/solution-with-builder-template.png",
+                "alt": "End-stage layout and functionality mockup: configuring listing",
+                "caption": "End-stage layout and functionality mockup: configuring listing"
+              },
+              {
+                "src": "/images/express-list/solution-channel-details-builder-template.png",
+                "alt": "End-stage layout and functionality mockup: fully configured listing with side drawer open",
+                "caption": "End-stage layout and functionality mockup: fully configured listing with side drawer open"
+              }
             ]
           },
           {
             "subheading": "Outcomes",
-            "content": "The “Express List” feature is currently in development to finish the front-end implementation and final visual design changes. The workflow is a stronger approach to solving for the original productivity efficiency objective. Iterative design cycles created a layout that is future-proof for planned enhancements and additional features as well as responsive and mobile friendly. “Express List” will be launched to all users upon development completion and will co-exist along side the existing workflow, giving users a choice between the two."
+            "content": "The “Express List” feature is currently in development to finish the front-end implementation and final visual design changes. The workflow is a stronger approach to solving for the original productivity efficiency objective. Iterative design cycles created a layout that is future-proof for planned enhancements and additional features as well as responsive and mobile friendly. “Express List” will be launched to all users upon development completion and will co-exist alongside the existing workflow, giving users a choice between the two."
           },
           {
             "subheading": "Learnings",
-            "content": "Stepping back into projects with fresh eyes can help to elevate, improve, and strengthen projects with knowledge gained in-between active design cycles.  Working iteratively also helped to redefine and focus the objectives of the project and was necessary to designing holistically."
+            "content": "Stepping back into projects with fresh eyes can help to elevate, improve, and strengthen projects with knowledge gained in-between active design cycles. Working iteratively also helped to redefine and focus the objectives of the project and was necessary to designing holistically."
           }
         ]
       }
