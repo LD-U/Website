@@ -47,12 +47,12 @@ const leadershipStats = [
   {
     value: "2 for 2",
     label: "Growing Designers from Practitioners → Product Owners",
-    detail: "Mentored 2 designers through their growth neccessary for the team to scale as we aquired more products.",
+    detail: "Mentored 2 designers through the growth needed for the team to scale as we acquired more products.",
   },
   {
     value: "0 → 1",
     label: "Founded Design and Evolved Product Strategy",
-    detail: "First design hire and built the product strategy, process, and design team that didn't exist before. Owning projects from stage zero through delivery",
+    detail: "First design hire and built the product strategy, process, and design team that didn't exist before. Owning projects from stage zero through delivery.",
   },
   {
     value: "50%",
@@ -65,7 +65,7 @@ const approachPillars = [
   {
     icon: Users,
     title: "Lead as Player/Coach",
-    body: "I set clear expectations, build predictable frameworks, and follow both myself as a designer for accountablity and consistency across the team.",
+    body: "I set clear expectations, build predictable frameworks, and hold myself to the same standards as my team, for accountability and consistency.",
   },
   {
     icon: FlaskConical,
@@ -208,7 +208,7 @@ export default function App() {
             <em className="not-italic text-accent">I'm Lindsay.</em>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl leading-relaxed mb-12 font-light">
-            I am an empathetic, user-guided, system loving, <strong>product design leader</strong>.
+            I am an empathetic, user-guided, system-loving <strong>product design leader</strong>.
           </p>
           <div className="flex flex-wrap gap-4">
             <button
@@ -264,7 +264,7 @@ export default function App() {
               {[
                 { label: "Focus", value: "Product Design Leadership" },
                 { label: "Team", value: "Product and Design team of 5" },
-                { label: "Industries", value: "e-Commerce · MarTech" },
+                { label: "Industries", value: "E-commerce · MarTech" },
                 {
                   label: "Email",
                   value: "lindsayunderwood@me.com",
@@ -315,7 +315,7 @@ export default function App() {
                 Success Metrics
               </h3>
               <p className="text-base text-muted-foreground leading-relaxed font-light mb-8 max-w-xl">
-                My track record of bringing clarity to abiguity, creating systems for collaborative teams, and leading by design.
+                My track record of bringing clarity to ambiguity, creating systems for collaborative teams, and leading by design.
               </p>
 
               <div className="divide-y divide-border border-t border-b border-border">
@@ -508,11 +508,11 @@ export default function App() {
                   dates: "2026 - Present",
                   location: "Remote",
                   bullets: [
-                    "Defined and prioritized the E-commerce product roadmap, balanced customer goals, business objectives, technical improvements, and strategic initiatives.",
+                    "Defined and prioritized the e-commerce product roadmap, balancing customer goals, business objectives, technical improvements, and strategic initiatives.",
                     "Identified customer needs through product research, evaluated opportunities, led project shaping, and translated business needs into clear requirements, scope, and acceptance criteria.",
                     "Aligned engineering, design, customer experience, and leadership on product priorities, decisions, dependencies, and delivery expectations.",
-                    "Led UX strategy and design execution, ensuring cohesive, usable experiences across E-commerce products; while supporting and mentoring designers.",
-                    "Created and implemented an automated, cross-functional release management system, leveraging AI workflows for internal release notes, material distribution to Customer Support and Product Marketing triggered by QA completion, and feedback loops with clear go/no-go signals to engineers for feature launches and deployments."
+                    "Led UX strategy and design execution, ensuring cohesive, usable experiences across e-commerce products, while supporting and mentoring designers.",
+                    "Created and implemented an automated, cross-functional release management system, leveraging AI-powered workflows for internal release notes, materials distribution to Customer Support and Product Marketing triggered by QA completion, and feedback loops with clear go/no-go signals to engineers for feature launches and deployments."
                   ],
                 },
                 {
