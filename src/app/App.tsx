@@ -501,11 +501,26 @@ export default function App() {
             <div className="md:col-span-8 space-y-14">
               {[
                 {
+                  org: "Cordance Commerce [Upright Business Unit]",
+                  orgDesc:
+                    "Multi-channel inventory management and e-commerce software for thrift/secondhand retailers.",
+                  role: "Product Owner",
+                  dates: "2026 - Present",
+                  location: "Remote",
+                  bullets: [
+                    "Defined and prioritized the E-commerce product roadmap, balanced customer goals, business objectives, technical improvements, and strategic initiatives.",
+                    "Identified customer needs through product research, evaluated opportunities, led project shaping, and translated business needs into clear requirements, scope, and acceptance criteria.",
+                    "Aligned engineering, design, customer experience, and leadership on product priorities, decisions, dependencies, and delivery expectations.",
+                    "Led UX strategy and design execution, ensuring cohesive, usable experiences across E-commerce products; while supporting and mentoring designers.",
+                    "Created and implemented an automated, cross-functional release management system, leveraging AI workflows for internal release notes, material distribution to Customer Support and Product Marketing triggered by QA completion, and feedback loops with clear go/no-go signals to engineers for feature launches and deployments."
+                  ],
+                },
+                {
                   org: "Upright Labs",
                   orgDesc:
                     "Multi-channel inventory management and e-commerce software for thrift/secondhand retailers.",
                   role: "Senior Product Designer",
-                  dates: "2022 - Present",
+                  dates: "2022 - 2026",
                   location: "Remote",
                   bullets: [
                     "First design hire; led foundational customer research, problem framing, and design documentation practices.",
